@@ -1,5 +1,23 @@
 # Simple Site with Node Backend
 
+## 初始化 prmopt
+
+```
+建立一個簡單的網站
+前端使用 vite + vue + scss
+後台用純粹的 node.js 處理
+
+前台有登入頁、登入後的歡迎頁、關於我們這三個頁面
+
+登入使用 authorize token 處理，後台先以 mock request 處理即可
+
+使用 .env.production 和 .env.development 來區分正測試環境設定
+
+環境設定先設置一個環境變數：`CONTEXT_PATH` 作為網址前綴（正式區為`/foo/bar`；測試區為`/`）
+
+在 package.json 的 script 中，要提供 `dev:production` 的 `script` 用以執行正式環境檔
+```
+
 此專案示範以 **Vite + Vue 3 + SCSS** 建構前端介面，並使用 **純 Node.js**（無第三方框架）打造一個簡單的 Mock API Server。前後端均支援藉由 `CONTEXT_PATH` 環境變數設定網址前綴，並可依正式／測試環境切換設定檔。
 
 ## 目錄結構
