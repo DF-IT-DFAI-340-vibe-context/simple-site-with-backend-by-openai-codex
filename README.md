@@ -2,7 +2,7 @@
 
 ## 初始化 prmopt
 
-```
+```markdown
 建立一個簡單的網站
 前端使用 vite + vue + scss
 後台用純粹的 node.js 處理
